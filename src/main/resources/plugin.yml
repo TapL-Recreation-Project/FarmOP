@@ -1,0 +1,10 @@
+name: FarmingOp
+version: ${project.version}
+main: me.swipez.farmingop.Farmingop
+api-version: 1.16
+authors: [ notnotnotswipez, YHDiamond ]
+commands:
+  farmop:
+    usage: /farmop <start/stop/reload>
+    description: Starts and stops the OP Farming challenge
+
