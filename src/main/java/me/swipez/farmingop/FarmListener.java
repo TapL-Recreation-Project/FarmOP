@@ -38,7 +38,6 @@ public class FarmListener implements Listener {
             Bukkit.broadcastMessage(data);
             Bukkit.broadcastMessage(e.getBlock().getType() + "");
             if (shouldDrop(e)){
-                e.getPlayer().sendMessage(""+e.getBlock().getBlockData().toString());
                 List<String> mats = plugin.getConfig().getStringList("fallitems");
                 List<String> counts = plugin.getConfig().getStringList("fallitemscount");
                 List<String> enchants = plugin.getConfig().getStringList("enchantslist");
